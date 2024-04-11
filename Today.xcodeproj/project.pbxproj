@@ -23,6 +23,7 @@
 		EC0A65DB2BC6F9F900A7D138 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A65DA2BC6F9F900A7D138 /* ReminderListViewController+Actions.swift */; };
 		EC0A65DE2BC7AA2400A7D138 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A65DD2BC7AA2400A7D138 /* ReminderViewController.swift */; };
 		EC0A65E02BC7B40900A7D138 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A65DF2BC7B40900A7D138 /* ReminderViewController+Row.swift */; };
+		EC0A65E22BC7C5DA00A7D138 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A65E12BC7C5DA00A7D138 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		EC0A65DA2BC6F9F900A7D138 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		EC0A65DD2BC7AA2400A7D138 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		EC0A65DF2BC7B40900A7D138 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		EC0A65E12BC7C5DA00A7D138 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			children = (
 				EC0A65DD2BC7AA2400A7D138 /* ReminderViewController.swift */,
 				EC0A65DF2BC7B40900A7D138 /* ReminderViewController+Row.swift */,
+				EC0A65E12BC7C5DA00A7D138 /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				EC0A65A52BC17DCD00A7D138 /* ReminderListViewController.swift in Sources */,
 				EC0A65D42BC65CAB00A7D138 /* Date+Today.swift in Sources */,
 				EC0A65A12BC17DCD00A7D138 /* AppDelegate.swift in Sources */,
+				EC0A65E22BC7C5DA00A7D138 /* ReminderViewController+Section.swift in Sources */,
 				EC0A65A32BC17DCD00A7D138 /* SceneDelegate.swift in Sources */,
 				EC0A65DE2BC7AA2400A7D138 /* ReminderViewController.swift in Sources */,
 				EC0A65E02BC7B40900A7D138 /* ReminderViewController+Row.swift in Sources */,
