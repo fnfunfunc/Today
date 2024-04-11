@@ -11,6 +11,8 @@ extension ReminderViewController {
     enum Row: Hashable {
         case header(String)
         case date, notes, time, title
+        case editableDate(Date)
+        case editableText(String?)
 
         var imageName: String? {
             switch self {

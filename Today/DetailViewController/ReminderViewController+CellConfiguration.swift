@@ -1,0 +1,53 @@
+//
+//  ReminderViewController+CellConfiguration.swift
+//  Today
+//
+//  Created by eternal on 2024/4/11.
+//
+
+import UIKit
+
+extension ReminderViewController {
+    func defaultConfiguration(for cell: UICollectionViewListCell, at row: Row) -> UIListContentConfiguration {
+        var contentConfiguration = cell.defaultContentConfiguration()
+        contentConfiguration.text = text(for: row)
+        contentConfiguration.textProperties.font = UIFont.preferredFont(forTextStyle: row.textStyle)
+        contentConfiguration.image = row.image
+        return contentConfiguration
+    }
+    
+    
+    func headerConfiguration(for cell: UICollectionViewListCell, with title: String) -> UIListContentConfiguration {
+        var contentConfiguration = cell.defaultContentConfiguration()
+        contentConfiguration.text = title
+        return contentConfiguration
+    }
+    
+    func titleConfiguration(for cell: UICollectionViewListCell, with title: String?) -> TextFieldContentView.Configuration {
+        var contentConfiguration = cell.textFieldConfiguration()
+        contentConfiguration.text = title
+        return contentConfiguration
+    }
+    
+    func dateConfiguration(for cell: UICollectionViewListCell, with date: Date) -> DatePickerContentView.Configuration {
+        var contentConfiguration = cell.datePickerConfiguration()
+        contentConfiguration.date = date
+        return contentConfiguration
+    }
+    
+    func notesConfiguration(for cell: UICollectionViewListCell, with notes: String?) -> TextViewContentView.Configuration {
+        var contentConfiguration = cell.textViewConfiguration()
+        contentConfiguration.text = notes
+        return contentConfiguration
+    }
+    
+    func text(for row: Row) -> String? {
+        switch row {
+        case .date: reminder.dueDate.dayText
+        case .notes: reminder.notes
+        case .time: reminder.dueDate.formatted(date: .omitted, time: .shortened)
+        case .title: reminder.title
+        default: nil
+        }
+    }
+}
