@@ -37,6 +37,7 @@
 		ECFAB70D2BCA506100D8A98A /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAB70C2BCA506100D8A98A /* EKEventStore+AsyncFetch.swift */; };
 		ECFAB70F2BCA54A900D8A98A /* Reminder+EKReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAB70E2BCA54A900D8A98A /* Reminder+EKReminder.swift */; };
 		ECFAB7112BCA55B100D8A98A /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAB7102BCA55B100D8A98A /* ReminderStore.swift */; };
+		ECFAB7132BCAA91700D8A98A /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAB7122BCAA91700D8A98A /* EKReminder+Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		ECFAB70C2BCA506100D8A98A /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
 		ECFAB70E2BCA54A900D8A98A /* Reminder+EKReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+EKReminder.swift"; sourceTree = "<group>"; };
 		ECFAB7102BCA55B100D8A98A /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
+		ECFAB7122BCAA91700D8A98A /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				ECFAB70C2BCA506100D8A98A /* EKEventStore+AsyncFetch.swift */,
 				ECFAB70E2BCA54A900D8A98A /* Reminder+EKReminder.swift */,
 				ECFAB7102BCA55B100D8A98A /* ReminderStore.swift */,
+				ECFAB7122BCAA91700D8A98A /* EKReminder+Reminder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				ECFAB70F2BCA54A900D8A98A /* Reminder+EKReminder.swift in Sources */,
 				EC0A65A32BC17DCD00A7D138 /* SceneDelegate.swift in Sources */,
 				EC0A65F12BC98C6E00A7D138 /* ReminderListStyle.swift in Sources */,
+				ECFAB7132BCAA91700D8A98A /* EKReminder+Reminder.swift in Sources */,
 				EC0A65DE2BC7AA2400A7D138 /* ReminderViewController.swift in Sources */,
 				EC0A65E72BC7E28E00A7D138 /* UIView+PinnedSubview.swift in Sources */,
 				ECFAB7092BCA4A6D00D8A98A /* CAGradientLayer+ListStyle.swift in Sources */,
