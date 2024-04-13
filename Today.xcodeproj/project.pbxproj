@@ -32,6 +32,7 @@
 		EC0A65EF2BC829E700A7D138 /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A65EE2BC829E700A7D138 /* DatePickerContentView.swift */; };
 		EC0A65F12BC98C6E00A7D138 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0A65F02BC98C6E00A7D138 /* ReminderListStyle.swift */; };
 		ECFAB7072BCA2C8600D8A98A /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAB7062BCA2C8600D8A98A /* ProgressHeaderView.swift */; };
+		ECFAB7092BCA4A6D00D8A98A /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFAB7082BCA4A6D00D8A98A /* CAGradientLayer+ListStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		EC0A65EE2BC829E700A7D138 /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
 		EC0A65F02BC98C6E00A7D138 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		ECFAB7062BCA2C8600D8A98A /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
+		ECFAB7082BCA4A6D00D8A98A /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				EC0A65D12BC1800600A7D138 /* Reminder.swift */,
 				EC0A65D32BC65CAB00A7D138 /* Date+Today.swift */,
 				EC0A65F02BC98C6E00A7D138 /* ReminderListStyle.swift */,
+				ECFAB7082BCA4A6D00D8A98A /* CAGradientLayer+ListStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				EC0A65F12BC98C6E00A7D138 /* ReminderListStyle.swift in Sources */,
 				EC0A65DE2BC7AA2400A7D138 /* ReminderViewController.swift in Sources */,
 				EC0A65E72BC7E28E00A7D138 /* UIView+PinnedSubview.swift in Sources */,
+				ECFAB7092BCA4A6D00D8A98A /* CAGradientLayer+ListStyle.swift in Sources */,
 				EC0A65ED2BC81FAA00A7D138 /* TextViewContentView.swift in Sources */,
 				EC0A65E02BC7B40900A7D138 /* ReminderViewController+Row.swift in Sources */,
 				EC0A65D22BC1800600A7D138 /* Reminder.swift in Sources */,
